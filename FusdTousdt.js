@@ -104,7 +104,7 @@ const FusdToUsdts = async (req, res, next) => {
 
   var chainID = await web3.eth.net.getId();
   console.log(`ChainID: ${chainID}\n------------------------`);
-  var amount = amount - (amount * 1) / 100;
+  var amount = amount - 1;
   var amounts = web3.utils.toWei(amount.toString(), "ether");
 
   var gasPriceGwei = 10;
