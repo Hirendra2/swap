@@ -7,4 +7,7 @@ router.post('/claimUsdt', swapapi.claimUsdt);
 router.post('/getUsdtamt', swapapi.getUsdtamt);
 router.post('/Usdtbalance', swapapi.Usdtbalance);
 router.post('/approves', swapapi.approves);
+router.post('/sendusdt', swapapi.sendusdt);
+
+
 module.exports = router;

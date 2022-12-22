@@ -114,6 +114,25 @@
 		"inputs": [
 			{
 				"internalType": "address",
+				"name": "user",
+				"type": "address"
+			}
+		],
+		"name": "getswapdId",
+		"outputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "",
+				"type": "uint256[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
 				"name": "",
 				"type": "address"
 			}
@@ -224,11 +243,6 @@
 				"internalType": "uint256",
 				"name": "createdDate",
 				"type": "uint256"
-			},
-			{
-				"internalType": "bool",
-				"name": "open",
-				"type": "bool"
 			}
 		],
 		"stateMutability": "view",
